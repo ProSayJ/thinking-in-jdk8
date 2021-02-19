@@ -10,10 +10,10 @@ public class FakeLookupService {
 
         switch (name) {
             case "The Beatles":
-                return SampleData.theBeatles;
+                return SampleData.THE_BEATLES;
 
             case "John Coltrane":
-                return SampleData.johnColtrane;
+                return SampleData.JOHN_COLTRANE;
 
             default:
                 throw new IllegalArgumentException("Unknown artist: " + name);

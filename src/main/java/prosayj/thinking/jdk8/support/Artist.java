@@ -25,11 +25,11 @@ public final class Artist {
     /**
      * members ：乐队成员（例如“约翰·列侬”），该字段可为空
      */
-    private List<Artist> members;
+    private final List<Artist> members;
     /**
      * 乐队来自哪里（例如“利物浦”）
      */
-    private String nationality;
+    private final String nationality;
 
     public Artist(String name, String nationality) {
         this(name, Collections.emptyList(), nationality);

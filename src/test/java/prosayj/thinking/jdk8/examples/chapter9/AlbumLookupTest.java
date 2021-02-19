@@ -21,7 +21,7 @@ public class AlbumLookupTest {
 
     @Test
     public void albumLookedUp() {
-        Album album = SampleData.aLoveSupreme;
+        Album album = SampleData.A_LOVE_SUPREME;
         List<Track> trackList = album.getTrackList();
         List<Artist> musicianList = album.getMusicianList();
 

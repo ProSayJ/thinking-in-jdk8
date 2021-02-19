@@ -42,7 +42,7 @@ public class TestOrder {
     @Before
     public void initOrder() {
         List<Track> tracks = asList(new Track("Acknowledgement", 467), new Track("Resolution", 442));
-        Album aLoveSupreme = new Album("A Love Supreme", tracks, asList(SampleData.johnColtrane));
+        Album aLoveSupreme = new Album("A Love Supreme", tracks, asList(SampleData.JOHN_COLTRANE));
         order = factory.apply(asList(aLoveSupreme));
     }
 

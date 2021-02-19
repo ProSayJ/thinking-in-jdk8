@@ -15,7 +15,7 @@ public class StreamExercisesTest {
 
     @Test
     public void external() {
-        assertEquals(4, countBandMembersExternal(Arrays.asList(SampleData.johnColtrane, SampleData.theBeatles)));
+        assertEquals(4, countBandMembersExternal(Arrays.asList(SampleData.JOHN_COLTRANE, SampleData.THE_BEATLES)));
     }
 
 

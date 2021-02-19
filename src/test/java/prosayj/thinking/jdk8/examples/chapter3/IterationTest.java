@@ -8,12 +8,12 @@ public class IterationTest {
     @Test
     public void lazyPrintOuts() {
         Iteration iteration = new Iteration();
-        iteration.filterArtistsFromLondonPrinted(SampleData.membersOfTheBeatles);
+        iteration.filterArtistsFromLondonPrinted(SampleData.MEMBERS_OF_THE_BEATLES);
     }
 
     @Test
     public void evaluatedPrintOuts() {
         Iteration iteration = new Iteration();
-        iteration.internalCountArtistsFromLondonPrinted(SampleData.membersOfTheBeatles);
+        iteration.internalCountArtistsFromLondonPrinted(SampleData.MEMBERS_OF_THE_BEATLES);
     }
 }

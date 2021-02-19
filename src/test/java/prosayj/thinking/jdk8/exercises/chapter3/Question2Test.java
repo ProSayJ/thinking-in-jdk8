@@ -12,7 +12,7 @@ public class Question2Test {
 
     @Test
     public void internal() {
-        assertEquals(4, countBandMembersInternal(Arrays.asList(SampleData.johnColtrane, SampleData.theBeatles)));
+        assertEquals(4, countBandMembersInternal(Arrays.asList(SampleData.JOHN_COLTRANE, SampleData.THE_BEATLES)));
     }
 
 }

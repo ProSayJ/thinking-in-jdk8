@@ -7,7 +7,7 @@ public class PrimitivesTest {
 
     @Test
     public void albumStatistics() {
-        Primitives.printTrackLengthStatistics(SampleData.aLoveSupreme);
+        Primitives.printTrackLengthStatistics(SampleData.A_LOVE_SUPREME);
     }
 
 }

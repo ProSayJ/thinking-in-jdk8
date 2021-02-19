@@ -33,9 +33,9 @@ public class Question1Test {
 
     @Test
     public void findsShortAlbums() {
-        List<Album> input = asList(manyTrackAlbum, sampleShortAlbum, aLoveSupreme);
+        List<Album> input = asList(MANY_TRACK_ALBUM, SAMPLE_SHORT_ALBUM, A_LOVE_SUPREME);
         List<Album> result = Question1.getAlbumsWithAtMostThreeTracks(input);
-        assertEquals(asList(sampleShortAlbum, aLoveSupreme), result);
+        assertEquals(asList(SAMPLE_SHORT_ALBUM, A_LOVE_SUPREME), result);
     }
 
 }

@@ -26,8 +26,8 @@ public class RefactorTest {
             Refactor.Step4::new
         );
 
-        List<Album> albums = unmodifiableList(asList(SampleData.aLoveSupreme, SampleData.sampleShortAlbum));
-        List<Album> noTracks = unmodifiableList(asList(SampleData.sampleShortAlbum));
+        List<Album> albums = unmodifiableList(asList(SampleData.A_LOVE_SUPREME, SampleData.SAMPLE_SHORT_ALBUM));
+        List<Album> noTracks = unmodifiableList(asList(SampleData.SAMPLE_SHORT_ALBUM));
 
         finders.forEach(finder -> {
             System.out.println("Testing: " + finder.toString());

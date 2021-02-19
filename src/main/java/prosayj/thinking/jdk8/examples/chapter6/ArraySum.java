@@ -36,7 +36,7 @@ public class ArraySum {
     public void initAlbums() {
         int n = Integer.getInteger("arraysum.size", 1000);
         albums = IntStream.range(0, n)
-                          .mapToObj(i -> SampleData.aLoveSupreme.copy())
+                          .mapToObj(i -> SampleData.A_LOVE_SUPREME.copy())
                           .collect(toList());
     }
 

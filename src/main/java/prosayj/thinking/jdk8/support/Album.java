@@ -14,7 +14,6 @@ import static java.util.Collections.unmodifiableList;
 import static java.util.stream.Collectors.toList;
 
 /**
- *
  * 专辑，由若干曲目组成。
  */
 public final class Album implements Performance {

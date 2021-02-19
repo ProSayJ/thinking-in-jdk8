@@ -15,7 +15,7 @@ public class RxExamplesTest {
                                 .toBlockingObservable()
                                 .single();
 
-        assertEquals(SampleData.johnLennon, artist);
+        assertEquals(SampleData.JOHN_LENNON, artist);
     }
 
 }

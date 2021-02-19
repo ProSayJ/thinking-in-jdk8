@@ -24,14 +24,14 @@ public class PerformanceTest {
 
             @Override
             public Stream<Artist> getMusicians() {
-                return Stream.of(SampleData.theBeatles);
+                return Stream.of(SampleData.THE_BEATLES);
             }
         };
 
         List<Artist> allMusicians = stub.getAllMusicians().collect(toList());
-        assertThat(allMusicians, hasItem(SampleData.theBeatles));
+        assertThat(allMusicians, hasItem(SampleData.THE_BEATLES));
         // There really must be a better way than this
-        assertThat(allMusicians, hasItems(SampleData.membersOfTheBeatles.toArray(new Artist[0])));
+        assertThat(allMusicians, hasItems(SampleData.MEMBERS_OF_THE_BEATLES.toArray(new Artist[0])));
     }
 
 }
