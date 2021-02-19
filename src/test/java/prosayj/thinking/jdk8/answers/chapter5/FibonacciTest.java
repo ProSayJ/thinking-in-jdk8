@@ -1,6 +1,6 @@
 package prosayj.thinking.jdk8.answers.chapter5;
 
-import com.insightfullogic.java8.answers.chapter5.Fibonacci;
+import prosayj.thinking.jdk8.answers.chapter5.Fibonacci;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -17,7 +17,7 @@ public class FibonacciTest {
 
         IntStream.range(0, fibonacciSequence.size())
                  .forEach(x -> {
-                     com.insightfullogic.java8.answers.chapter5.Fibonacci fibonacci = new Fibonacci();
+                     Fibonacci fibonacci = new Fibonacci();
                      long result = fibonacci.fibonacci(x);
                      long expectedResult = fibonacciSequence.get(x);
                      assertEquals(expectedResult, result);

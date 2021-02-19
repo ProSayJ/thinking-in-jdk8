@@ -1,15 +1,12 @@
 package prosayj.thinking.jdk8.answers.chapter4;
 
-
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 
 import java.util.stream.Stream;
 
 import static java.util.stream.Stream.concat;
 
-/**
- * A Performance by some musicians - eg an Album or Gig.
- */
+/** A Performance by some musicians - eg an Album or Gig. */
 public interface PerformanceFixed {
 
     public String getName();
@@ -18,7 +15,7 @@ public interface PerformanceFixed {
 
     public default Stream<Artist> getAllMusicians() {
         return getMusicians()
-                .flatMap(artist -> concat(Stream.of(artist), artist.getMembers()));
+              .flatMap(artist -> concat(Stream.of(artist), artist.getMembers()));
     }
 
 }

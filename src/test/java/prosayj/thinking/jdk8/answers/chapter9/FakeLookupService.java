@@ -1,7 +1,7 @@
 package prosayj.thinking.jdk8.answers.chapter9;
 
-import com.insightfullogic.java8.examples.chapter1.Artist;
-import com.insightfullogic.java8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.examples.chapter1.Artist;
+import prosayj.thinking.jdk8.examples.chapter1.SampleData;
 
 public class FakeLookupService {
 

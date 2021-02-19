@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.examples.chapter5;
 
-
 import prosayj.thinking.jdk8.examples.chapter1.Album;
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 
@@ -14,7 +13,6 @@ import java.util.stream.Stream;
 
 import static java.nio.charset.Charset.defaultCharset;
 import static java.util.stream.Collectors.groupingBy;
-import static prosayj.thinking.jdk8.examples.chapter5.CollectorExamples.countWords;
 
 public class MethodReferences {
 
@@ -26,10 +24,10 @@ public class MethodReferences {
 
     public static Map<String, Long> countWordsIn(Path path) throws IOException {
         Stream<String> words = Files.readAllLines(path, defaultCharset())
-                .stream()
-                .flatMap(SPACES::splitAsStream);
+                                    .stream()
+                                    .flatMap(SPACES::splitAsStream);
 
-        return countWords(words);
+        return CollectorExamples.countWords(words);
     }
 
 }

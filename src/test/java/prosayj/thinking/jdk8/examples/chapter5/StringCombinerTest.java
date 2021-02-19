@@ -2,8 +2,9 @@ package prosayj.thinking.jdk8.examples.chapter5;
 
 import org.junit.Before;
 import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter5.StringCombiner;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class StringCombinerTest {
     private StringCombiner combiner;

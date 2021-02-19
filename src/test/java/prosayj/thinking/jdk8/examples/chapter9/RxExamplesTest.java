@@ -1,8 +1,11 @@
 package prosayj.thinking.jdk8.examples.chapter9;
 
-import org.junit.Test;
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter9.RxExamples;
+
+import static org.junit.Assert.assertEquals;
 
 public class RxExamplesTest {
 

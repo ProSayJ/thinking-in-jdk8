@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.examples.chapter8.template_method.traditional;
 
-
 import prosayj.thinking.jdk8.examples.chapter8.template_method.ApplicationDenied;
 
 // BEGIN LoanApplication
@@ -23,6 +22,7 @@ public abstract class LoanApplication {
 // END LoanApplication
 
     }
+
 
 
 }

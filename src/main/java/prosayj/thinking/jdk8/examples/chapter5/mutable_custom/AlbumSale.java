@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.examples.chapter5.mutable_custom;
 
-
 import prosayj.thinking.jdk8.examples.chapter1.Album;
 
 public final class AlbumSale {

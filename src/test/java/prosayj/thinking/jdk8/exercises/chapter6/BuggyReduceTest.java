@@ -1,6 +1,7 @@
 package prosayj.thinking.jdk8.exercises.chapter6;
 
 import org.junit.Test;
+import prosayj.thinking.jdk8.exercises.chapter6.BuggyReduce;
 
 import java.util.Arrays;
 import java.util.List;

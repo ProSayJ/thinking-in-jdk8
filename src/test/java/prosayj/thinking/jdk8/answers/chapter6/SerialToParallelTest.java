@@ -1,5 +1,6 @@
 package prosayj.thinking.jdk8.answers.chapter6;
 
+import prosayj.thinking.jdk8.answers.chapter6.SerialToParallel;
 import org.junit.Test;
 
 import java.util.stream.IntStream;

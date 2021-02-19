@@ -1,14 +1,20 @@
 package prosayj.thinking.jdk8.examples.chapter9;
 
 
-import org.junit.Test;
 import prosayj.thinking.jdk8.examples.chapter1.Album;
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.examples.chapter1.Track;
+import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter9.AlbumLookup;
+import prosayj.thinking.jdk8.examples.chapter9.CompletableAlbumLookup;
+import prosayj.thinking.jdk8.examples.chapter9.FutureAlbumLookup;
 
 import java.util.List;
 import java.util.function.BiFunction;
 import java.util.stream.Stream;
+
+import static org.junit.Assert.assertEquals;
 
 public class AlbumLookupTest {
 

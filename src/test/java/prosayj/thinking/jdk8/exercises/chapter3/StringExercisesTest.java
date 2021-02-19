@@ -1,6 +1,7 @@
 package prosayj.thinking.jdk8.exercises.chapter3;
 
 import org.junit.Test;
+import prosayj.thinking.jdk8.exercises.chapter3.StringExercises;
 
 import java.util.Arrays;
 import java.util.Collections;

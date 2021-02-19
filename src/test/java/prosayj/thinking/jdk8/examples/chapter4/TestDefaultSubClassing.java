@@ -1,6 +1,7 @@
 package prosayj.thinking.jdk8.examples.chapter4;
 
 import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter4.*;
 
 import static org.junit.Assert.assertEquals;
 

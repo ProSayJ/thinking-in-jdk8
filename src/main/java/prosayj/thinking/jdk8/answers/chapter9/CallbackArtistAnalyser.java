@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.answers.chapter9;
 
-
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 
 import java.util.function.Consumer;

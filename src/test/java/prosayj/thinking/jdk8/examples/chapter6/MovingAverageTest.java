@@ -1,6 +1,7 @@
 package prosayj.thinking.jdk8.examples.chapter6;
 
 import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter6.ArrayExamples;
 
 import java.util.Arrays;
 

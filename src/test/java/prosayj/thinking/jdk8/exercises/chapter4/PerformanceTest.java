@@ -1,14 +1,16 @@
 package prosayj.thinking.jdk8.exercises.chapter4;
 
-import org.junit.Test;
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import org.junit.Test;
+import prosayj.thinking.jdk8.exercises.chapter4.PerformanceFixed;
 
 import java.util.List;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 import static org.hamcrest.Matchers.hasItem;
+import static org.hamcrest.Matchers.hasItems;
 import static org.junit.Assert.assertThat;
 
 public class PerformanceTest {

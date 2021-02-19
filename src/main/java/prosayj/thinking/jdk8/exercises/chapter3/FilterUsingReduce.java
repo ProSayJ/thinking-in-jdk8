@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.exercises.chapter3;
 
-
 import prosayj.thinking.jdk8.exercises.Exercises;
 
 import java.util.List;

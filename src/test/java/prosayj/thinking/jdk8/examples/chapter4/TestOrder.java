@@ -1,12 +1,16 @@
 package prosayj.thinking.jdk8.examples.chapter4;
 
-import com.insightfullogic.java8.examples.chapter1.Album;
-import com.insightfullogic.java8.examples.chapter1.SampleData;
-import com.insightfullogic.java8.examples.chapter1.Track;
+import prosayj.thinking.jdk8.examples.chapter1.Album;
+import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.examples.chapter1.Track;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import prosayj.thinking.jdk8.examples.chapter4.Order;
+import prosayj.thinking.jdk8.examples.chapter4.OrderDomain;
+import prosayj.thinking.jdk8.examples.chapter4.OrderImperative;
+import prosayj.thinking.jdk8.examples.chapter4.OrderStreams;
 
 import java.util.Collection;
 import java.util.List;

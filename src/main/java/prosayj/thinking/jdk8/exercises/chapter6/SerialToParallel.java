@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.exercises.chapter6;
 
-
 import prosayj.thinking.jdk8.exercises.Exercises;
 
 import java.util.stream.IntStream;

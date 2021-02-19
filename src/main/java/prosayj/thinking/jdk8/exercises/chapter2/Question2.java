@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.exercises.chapter2;
 
-
 import prosayj.thinking.jdk8.exercises.Exercises;
 
 import javax.swing.text.DateFormatter;

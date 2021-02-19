@@ -1,5 +1,6 @@
 package prosayj.thinking.jdk8.answers.chapter5;
 
+import prosayj.thinking.jdk8.answers.chapter5.WordCount;
 import org.junit.Test;
 
 import java.util.Map;

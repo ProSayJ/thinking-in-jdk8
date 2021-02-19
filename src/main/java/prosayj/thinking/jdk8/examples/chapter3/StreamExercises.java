@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.examples.chapter3;
 
-
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 
 import java.util.ArrayList;

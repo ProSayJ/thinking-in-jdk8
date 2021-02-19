@@ -7,7 +7,8 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static com.insightfullogic.java8.examples.chapter8.SingleResponsibilityPrinciple.*;
+import static prosayj.thinking.jdk8.examples.chapter8.SingleResponsibilityPrinciple.*;
+import static org.junit.Assert.assertEquals;
 import static org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)

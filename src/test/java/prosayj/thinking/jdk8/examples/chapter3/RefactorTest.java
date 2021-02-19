@@ -1,8 +1,9 @@
 package prosayj.thinking.jdk8.examples.chapter3;
 
-import com.insightfullogic.java8.examples.chapter1.Album;
-import com.insightfullogic.java8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.examples.chapter1.Album;
+import prosayj.thinking.jdk8.examples.chapter1.SampleData;
 import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter3.Refactor;
 
 import java.util.Arrays;
 import java.util.List;

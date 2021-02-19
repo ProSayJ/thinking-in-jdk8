@@ -1,9 +1,9 @@
 package prosayj.thinking.jdk8.exercises.chapter6;
 
+import prosayj.thinking.jdk8.exercises.Exercises;
 import org.openjdk.jmh.Main;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.RunnerException;
-import prosayj.thinking.jdk8.exercises.Exercises;
 
 import java.io.IOException;
 import java.util.LinkedList;

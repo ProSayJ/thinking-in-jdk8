@@ -2,7 +2,7 @@ package prosayj.thinking.jdk8.examples.chapter8.lambdabehave.example;
 
 import java.util.Stack;
 
-import static com.insightfullogic.java8.examples.chapter8.lambdabehave.Lets.describe;
+import static prosayj.thinking.jdk8.examples.chapter8.lambdabehave.Lets.describe;
 
 // BEGIN StackSpec
 public class StackSpec {{

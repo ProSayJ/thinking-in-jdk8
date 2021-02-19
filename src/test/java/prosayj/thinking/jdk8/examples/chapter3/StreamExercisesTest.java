@@ -1,14 +1,15 @@
 package prosayj.thinking.jdk8.examples.chapter3;
 
-import com.insightfullogic.java8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+
 import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter3.StreamExercises;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static com.insightfullogic.java8.examples.chapter3.StreamExercises.*;
-import static com.insightfullogic.java8.examples.chapter3.StreamExercises.countBandMembersExternal;
+import static prosayj.thinking.jdk8.examples.chapter3.StreamExercises.*;
 import static org.junit.Assert.assertEquals;
 
 public class StreamExercisesTest {

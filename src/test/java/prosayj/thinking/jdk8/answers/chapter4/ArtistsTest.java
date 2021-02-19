@@ -1,13 +1,13 @@
 package prosayj.thinking.jdk8.answers.chapter4;
 
-import com.insightfullogic.java8.examples.chapter1.Artist;
-import com.insightfullogic.java8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.answers.chapter4.ArtistsFixed;
+import prosayj.thinking.jdk8.examples.chapter1.Artist;
+import prosayj.thinking.jdk8.examples.chapter1.SampleData;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Optional;
 
-import static junit.framework.Assert.assertEquals;
 import static junit.framework.TestCase.assertTrue;
 import static org.junit.Assert.assertFalse;
 
@@ -36,7 +36,7 @@ public class ArtistsTest {
     @Test
     public void nameIndexOutsideRange() {
         String artist = optionalExamples.getArtistName(4);
-        assertEquals("unknown", artist);
+        Assert.assertEquals("unknown", artist);
     }
 
 }

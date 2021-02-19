@@ -1,6 +1,6 @@
 package prosayj.thinking.jdk8.examples.chapter5;
 
-import org.junit.Test;
+import static org.junit.Assert.*;
 
 import java.util.List;
 import java.util.function.BiConsumer;
@@ -11,7 +11,9 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter5.StringCollector;
+import prosayj.thinking.jdk8.examples.chapter5.StringCombiner;
 
 public class StringCollectorTest {
 
@@ -23,7 +25,7 @@ public class StringCollectorTest {
 		// That is, for a partially accumulated result a that is the result of any series of 
 		// accumulator and combiner invocations, a must be equivalent to combiner.apply(a, supplier.get()).
 		
-		StringCollector collector = new StringCollector(", ", "<!--", "-->");	
+		StringCollector collector = new StringCollector(", ", "<!--", "-->");
 		Supplier<StringCombiner> supplier = collector.supplier();
 		BiConsumer<StringCombiner, String> accumulator = collector.accumulator();
 		BinaryOperator<StringCombiner> combiner = collector.combiner();

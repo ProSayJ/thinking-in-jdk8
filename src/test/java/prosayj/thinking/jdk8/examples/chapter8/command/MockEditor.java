@@ -1,5 +1,7 @@
 package prosayj.thinking.jdk8.examples.chapter8.command;
 
+import prosayj.thinking.jdk8.examples.chapter8.command.Editor;
+
 import java.util.ArrayList;
 import java.util.List;
 

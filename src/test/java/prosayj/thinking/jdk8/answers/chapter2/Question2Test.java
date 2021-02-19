@@ -1,6 +1,7 @@
 package prosayj.thinking.jdk8.answers.chapter2;
 
 import org.junit.Test;
+import prosayj.thinking.jdk8.answers.chapter2.Question2;
 
 import java.util.Calendar;
 

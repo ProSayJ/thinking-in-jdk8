@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.answers.chapter4;
 
-
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 
 import java.util.List;
@@ -24,7 +23,7 @@ public class ArtistsFixed {
     public String getArtistName(int index) {
         Optional<Artist> artist = getArtist(index);
         return artist.map(Artist::getName)
-                .orElse("unknown");
+                     .orElse("unknown");
     }
 
 }

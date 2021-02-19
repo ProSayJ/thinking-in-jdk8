@@ -1,11 +1,12 @@
 package prosayj.thinking.jdk8.examples.chapter6;
 
+import prosayj.thinking.jdk8.examples.chapter1.Album;
+import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.examples.chapter1.Track;
 
 import org.openjdk.jmh.Main;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.RunnerException;
-import prosayj.thinking.jdk8.examples.chapter1.Album;
-import prosayj.thinking.jdk8.examples.chapter1.SampleData;
 
 import java.io.IOException;
 import java.util.List;

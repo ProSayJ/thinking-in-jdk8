@@ -1,6 +1,5 @@
 package prosayj.thinking.jdk8.examples.chapter8.lambdabehave;
 
-
 import prosayj.thinking.jdk8.examples.chapter8.lambdabehave.example.StackSpec;
 import prosayj.thinking.jdk8.examples.chapter8.lambdabehave.reporting.*;
 

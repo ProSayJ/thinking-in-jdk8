@@ -1,6 +1,7 @@
 package prosayj.thinking.jdk8.exercises.chapter5;
 
 import org.junit.Test;
+import prosayj.thinking.jdk8.exercises.chapter5.Fibonacci;
 
 import java.util.Arrays;
 import java.util.List;

@@ -3,12 +3,13 @@ package prosayj.thinking.jdk8.examples.chapter8;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import prosayj.thinking.jdk8.examples.chapter8.DependencyInversionPrinciple;
 
 import java.io.InputStreamReader;
 import java.util.Collection;
 import java.util.List;
 
-import static com.insightfullogic.java8.examples.chapter8.DependencyInversionPrinciple.HeadingFinder;
+import static prosayj.thinking.jdk8.examples.chapter8.DependencyInversionPrinciple.HeadingFinder;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 

@@ -1,8 +1,11 @@
 package prosayj.thinking.jdk8.exercises.chapter5;
 
-import org.junit.Test;
 import prosayj.thinking.jdk8.examples.chapter1.Artist;
 import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import org.junit.Test;
+import prosayj.thinking.jdk8.exercises.chapter5.LongestName;
+
+import static org.junit.Assert.assertEquals;
 
 public class LongestNameTest {
 

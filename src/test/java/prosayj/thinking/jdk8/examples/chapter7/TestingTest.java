@@ -1,8 +1,10 @@
 package prosayj.thinking.jdk8.examples.chapter7;
 
 import org.junit.Test;
+import prosayj.thinking.jdk8.examples.chapter7.Testing;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static java.util.Arrays.asList;
@@ -13,42 +15,42 @@ import static org.mockito.Mockito.when;
 public class TestingTest {
 
     // BEGIN to_uppercase
-@Test
-public void multipleWordsToUppercase() {
-    List<String> input = Arrays.asList("a", "b", "hello");
-    List<String> result = Testing.allToUpperCase(input);
-    assertEquals(asList("A", "B", "HELLO"), result);
-}
+    @Test
+    public void multipleWordsToUppercase() {
+        List<String> input = Arrays.asList("a", "b", "hello");
+        List<String> result = Testing.allToUpperCase(input);
+        assertEquals(asList("A", "B", "HELLO"), result);
+    }
     // END to_uppercase
 
     // BEGIN twoLetterStringConvertedToUppercaseLambdas
-@Test
-public void twoLetterStringConvertedToUppercaseLambdas() {
-    List<String> input = Arrays.asList("ab");
-    List<String> result = Testing.elementFirstToUpperCaseLambdas(input);
-    assertEquals(asList("Ab"), result);
-}
+    @Test
+    public void twoLetterStringConvertedToUppercaseLambdas() {
+        List<String> input = Collections.singletonList("ab");
+        List<String> result = Testing.elementFirstToUpperCaseLambdas(input);
+        assertEquals(Collections.singletonList("Ab"), result);
+    }
     // END twoLetterStringConvertedToUppercaseLambdas
 
     // BEGIN twoLetterStringConvertedToUppercase
-@Test
-public void twoLetterStringConvertedToUppercase() {
-    String input = "ab";
-    String result = Testing.firstToUppercase(input);
-    assertEquals("Ab", result);
-}
+    @Test
+    public void twoLetterStringConvertedToUppercase() {
+        String input = "ab";
+        String result = Testing.firstToUppercase(input);
+        assertEquals("Ab", result);
+    }
     // END twoLetterStringConvertedToUppercase
 
-    private List<Integer> otherList = Arrays.asList(1, 2, 3);
+    private final List<Integer> otherList = Arrays.asList(1, 2, 3);
 
     @Test
     public void mockitoLambdas() {
         // BEGIN mockito_lambdas
-List<String> list = mock(List.class);
+        List<String> list = mock(List.class);
 
-when(list.size()).thenAnswer(inv -> otherList.size());
+        when(list.size()).thenAnswer(inv -> otherList.size());
 
-assertEquals(3, list.size());
+        assertEquals(3, list.size());
         // END mockito_lambdas
     }
 
