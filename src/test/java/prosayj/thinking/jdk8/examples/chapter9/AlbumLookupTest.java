@@ -1,14 +1,11 @@
 package prosayj.thinking.jdk8.examples.chapter9;
 
 
-import prosayj.thinking.jdk8.examples.chapter1.Album;
-import prosayj.thinking.jdk8.examples.chapter1.Artist;
-import prosayj.thinking.jdk8.examples.chapter1.SampleData;
-import prosayj.thinking.jdk8.examples.chapter1.Track;
+import prosayj.thinking.jdk8.support.Album;
+import prosayj.thinking.jdk8.support.Artist;
+import prosayj.thinking.jdk8.support.SampleData;
+import prosayj.thinking.jdk8.support.Track;
 import org.junit.Test;
-import prosayj.thinking.jdk8.examples.chapter9.AlbumLookup;
-import prosayj.thinking.jdk8.examples.chapter9.CompletableAlbumLookup;
-import prosayj.thinking.jdk8.examples.chapter9.FutureAlbumLookup;
 
 import java.util.List;
 import java.util.function.BiFunction;

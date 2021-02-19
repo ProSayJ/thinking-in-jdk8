@@ -1,7 +1,7 @@
 package prosayj.thinking.jdk8.exercises.chapter3;
 
-import prosayj.thinking.jdk8.examples.chapter1.Album;
-import prosayj.thinking.jdk8.examples.chapter1.Artist;
+import prosayj.thinking.jdk8.support.Album;
+import prosayj.thinking.jdk8.support.Artist;
 import prosayj.thinking.jdk8.exercises.Exercises;
 
 import java.util.List;

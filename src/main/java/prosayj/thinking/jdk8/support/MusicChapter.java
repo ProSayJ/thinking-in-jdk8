@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package prosayj.thinking.jdk8.examples.chapter1;
+package prosayj.thinking.jdk8.support;
 
 import java.util.ArrayList;
 import java.util.List;

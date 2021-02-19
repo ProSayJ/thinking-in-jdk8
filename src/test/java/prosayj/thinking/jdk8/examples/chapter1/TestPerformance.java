@@ -1,12 +1,16 @@
 package prosayj.thinking.jdk8.examples.chapter1;
 
 import org.junit.Test;
+import prosayj.thinking.jdk8.support.Album;
+import prosayj.thinking.jdk8.support.Artist;
+import prosayj.thinking.jdk8.support.SampleData;
+import prosayj.thinking.jdk8.support.Track;
 
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-import static prosayj.thinking.jdk8.examples.chapter1.SampleData.theBeatles;
+import static prosayj.thinking.jdk8.support.SampleData.theBeatles;
 import static java.util.Collections.singletonList;
 import static java.util.stream.Collectors.toSet;
 import static org.junit.Assert.assertEquals;

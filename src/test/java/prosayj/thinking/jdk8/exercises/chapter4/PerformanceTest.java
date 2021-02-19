@@ -1,9 +1,8 @@
 package prosayj.thinking.jdk8.exercises.chapter4;
 
-import prosayj.thinking.jdk8.examples.chapter1.Artist;
-import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.support.Artist;
+import prosayj.thinking.jdk8.support.SampleData;
 import org.junit.Test;
-import prosayj.thinking.jdk8.exercises.chapter4.PerformanceFixed;
 
 import java.util.List;
 import java.util.stream.Stream;

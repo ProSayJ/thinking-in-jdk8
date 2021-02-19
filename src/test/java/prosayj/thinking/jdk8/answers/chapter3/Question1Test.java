@@ -1,14 +1,13 @@
 package prosayj.thinking.jdk8.answers.chapter3;
 
-import prosayj.thinking.jdk8.examples.chapter1.Album;
-import prosayj.thinking.jdk8.examples.chapter1.SampleData;
-import prosayj.thinking.jdk8.answers.chapter3.Question1;
+import prosayj.thinking.jdk8.support.Album;
+import prosayj.thinking.jdk8.support.SampleData;
 import org.junit.Test;
 
 import java.util.List;
 import java.util.stream.Stream;
 
-import static prosayj.thinking.jdk8.examples.chapter1.SampleData.*;
+import static prosayj.thinking.jdk8.support.SampleData.*;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 

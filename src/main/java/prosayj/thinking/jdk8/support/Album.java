@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package prosayj.thinking.jdk8.examples.chapter1;
+package prosayj.thinking.jdk8.support;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,13 +15,21 @@ import static java.util.stream.Collectors.toList;
 
 /**
  *
- * @author richard
+ * 专辑，由若干曲目组成。
  */
 public final class Album implements Performance {
-    
-    private String name;
-    private List<Track> tracks;
-    private List<Artist> musicians;
+    /**
+     * 专辑名（例如《左轮手枪》）
+     */
+    private final String name;
+    /**
+     * 专辑上所有曲目的列表
+     */
+    private final List<Track> tracks;
+    /**
+     * 参与创作本专辑的艺术家列表
+     */
+    private final List<Artist> musicians;
 
     public Album(String name, List<Track> tracks, List<Artist> musicians) {
         Objects.requireNonNull(name);
@@ -36,6 +44,7 @@ public final class Album implements Performance {
     /**
      * @return the name
      */
+    @Override
     public String getName() {
         return name;
     }
@@ -57,6 +66,7 @@ public final class Album implements Performance {
     /**
      * @return the musicians
      */
+    @Override
     public Stream<Artist> getMusicians() {
         return musicians.stream();
     }

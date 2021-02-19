@@ -1,7 +1,7 @@
 package prosayj.thinking.jdk8.examples.chapter7;
 
 import prosayj.thinking.jdk8.examples.chapter4.OrderDomain;
-import prosayj.thinking.jdk8.examples.chapter1.Album;
+import prosayj.thinking.jdk8.support.Album;
 import org.junit.Test;
 
 import static java.util.Arrays.asList;

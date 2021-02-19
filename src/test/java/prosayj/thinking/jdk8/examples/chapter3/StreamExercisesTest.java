@@ -1,9 +1,8 @@
 package prosayj.thinking.jdk8.examples.chapter3;
 
-import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.support.SampleData;
 
 import org.junit.Test;
-import prosayj.thinking.jdk8.examples.chapter3.StreamExercises;
 
 import java.util.Arrays;
 import java.util.List;

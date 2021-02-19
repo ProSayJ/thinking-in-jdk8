@@ -1,4 +1,4 @@
-package prosayj.thinking.jdk8.examples.chapter1;
+package prosayj.thinking.jdk8.support;
 
 import java.util.Arrays;
 import java.util.List;

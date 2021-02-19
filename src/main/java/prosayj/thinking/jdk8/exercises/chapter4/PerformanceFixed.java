@@ -1,6 +1,6 @@
 package prosayj.thinking.jdk8.exercises.chapter4;
 
-import prosayj.thinking.jdk8.examples.chapter1.Artist;
+import prosayj.thinking.jdk8.support.Artist;
 import prosayj.thinking.jdk8.exercises.Exercises;
 
 import java.util.stream.Stream;

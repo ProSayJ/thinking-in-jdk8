@@ -1,16 +1,15 @@
 package prosayj.thinking.jdk8.exercises.chapter3;
 
-import prosayj.thinking.jdk8.examples.chapter1.Album;
-import prosayj.thinking.jdk8.examples.chapter1.SampleData;
+import prosayj.thinking.jdk8.support.Album;
+import prosayj.thinking.jdk8.support.SampleData;
 import org.junit.Test;
-import prosayj.thinking.jdk8.exercises.chapter3.Question1;
 
 import java.util.List;
 import java.util.stream.Stream;
 
-import static prosayj.thinking.jdk8.examples.chapter1.SampleData.aLoveSupreme;
-import static prosayj.thinking.jdk8.examples.chapter1.SampleData.manyTrackAlbum;
-import static prosayj.thinking.jdk8.examples.chapter1.SampleData.sampleShortAlbum;
+import static prosayj.thinking.jdk8.support.SampleData.aLoveSupreme;
+import static prosayj.thinking.jdk8.support.SampleData.manyTrackAlbum;
+import static prosayj.thinking.jdk8.support.SampleData.sampleShortAlbum;
 import static java.util.Arrays.asList;
 import static org.junit.Assert.assertEquals;
 

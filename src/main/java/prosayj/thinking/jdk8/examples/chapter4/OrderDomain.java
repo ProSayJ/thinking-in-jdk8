@@ -1,7 +1,7 @@
 package prosayj.thinking.jdk8.examples.chapter4;
 
 
-import prosayj.thinking.jdk8.examples.chapter1.Album;
+import prosayj.thinking.jdk8.support.Album;
 
 import java.util.List;
 import java.util.function.ToLongFunction;

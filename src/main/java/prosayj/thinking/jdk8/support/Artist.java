@@ -3,7 +3,7 @@
  * and open the template in the editor.
  */
 
-package prosayj.thinking.jdk8.examples.chapter1;
+package prosayj.thinking.jdk8.support;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,16 +14,23 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.toList;
 
 /**
- * Domain class for a popular music artist.
- * 
- * @author Richard Warburton
+ * 创作音乐的个人或团队
  */
 public final class Artist {
-    
-    private String name;
+
+    /**
+     * name ：艺术家的名字（例如“甲壳虫乐队”）
+     */
+    private final String name;
+    /**
+     * members ：乐队成员（例如“约翰·列侬”），该字段可为空
+     */
     private List<Artist> members;
+    /**
+     * 乐队来自哪里（例如“利物浦”）
+     */
     private String nationality;
-    
+
     public Artist(String name, String nationality) {
         this(name, Collections.emptyList(), nationality);
     }

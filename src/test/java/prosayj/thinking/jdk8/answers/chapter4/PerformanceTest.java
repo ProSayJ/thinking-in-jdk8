@@ -1,8 +1,7 @@
 package prosayj.thinking.jdk8.answers.chapter4;
 
-import prosayj.thinking.jdk8.examples.chapter1.Artist;
-import prosayj.thinking.jdk8.examples.chapter1.SampleData;
-import prosayj.thinking.jdk8.answers.chapter4.PerformanceFixed;
+import prosayj.thinking.jdk8.support.Artist;
+import prosayj.thinking.jdk8.support.SampleData;
 import org.junit.Test;
 
 import java.util.List;
