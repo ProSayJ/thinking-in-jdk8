@@ -112,3 +112,5 @@ selenium-debug.log
 .idea/
 *.zip
 .vscode/
+
+*.iml
